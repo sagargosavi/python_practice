@@ -7,12 +7,10 @@ class Solution(object):
     def twosum(self,l,n):
         mydict = {}
         for i,v in enumerate(l):
-            print(mydict)
             if n-v in mydict:
                 return [mydict[n-v],i]
 
-            else:
-                mydict[v] = i
+            mydict[v] = i
 
         return []
 
