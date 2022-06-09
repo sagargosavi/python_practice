@@ -6,6 +6,7 @@ from colorsys import TWO_THIRD
 class Solution(object):
     def twosum(self,l,n):
         print(n)
+        print(l)
         mydict = {}
         for i,v in enumerate(l):
             if n-v in mydict:
